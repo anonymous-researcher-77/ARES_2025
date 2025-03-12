@@ -1,0 +1,111 @@
+version: '3'
+services:
+  server0:
+    build: .
+    environment:
+      - PORT=3000
+      - SERVER_INDEX=0
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server1:
+    build: .
+    environment:
+      - PORT=3001
+      - SERVER_INDEX=1
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server2:
+    build: .
+    environment:
+      - PORT=3002
+      - SERVER_INDEX=2
+    ports:
+      - "3002:3002"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server3:
+    build: .
+    environment:
+      - PORT=3003
+      - SERVER_INDEX=3
+    ports:
+      - "3003:3003"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server4:
+    build: .
+    environment:
+      - PORT=3004
+      - SERVER_INDEX=4
+    ports:
+      - "3004:3004"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server5:
+    build: .
+    environment:
+      - PORT=3005
+      - SERVER_INDEX=5
+    ports:
+      - "3005:3005"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server6:
+    build: .
+    environment:
+      - PORT=3006
+      - SERVER_INDEX=6
+    ports:
+      - "3006:3006"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server7:
+    build: .
+    environment:
+      - PORT=3007
+      - SERVER_INDEX=7
+    ports:
+      - "3007:3007"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server8:
+    build: .
+    environment:
+      - PORT=3008
+      - SERVER_INDEX=8
+    ports:
+      - "3008:3008"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys
+
+  server9:
+    build: .
+    environment:
+      - PORT=3009
+      - SERVER_INDEX=9
+    ports:
+      - "3009:3009"
+    volumes:
+      - ./certs:/usr/src/app/certs
+      - ./keys:/usr/src/app/keys

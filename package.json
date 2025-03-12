@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@polkadot/api": "^15.6.1",
+    "@polkadot/api-contract": "^15.6.1",
+    "dotenv": "^16.4.7",
+    "fabric-ca-client": "^2.2.20",
+    "fabric-network": "^2.2.20",
+    "redis": "^4.7.0",
+    "redos": "^1.0.1",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}
